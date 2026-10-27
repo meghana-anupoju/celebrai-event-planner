@@ -1,0 +1,33 @@
+{
+  "name": "celebrai-event-planner",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A GenAI-powered celebration planner for weddings, birthdays, and community events.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint app lib tests next.config.mjs vitest.config.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "next": "^15.5.28",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.5.28",
+    "typescript": "^5.8.3",
+    "vitest": "^4.1.12"
+  },
+  "overrides": {
+    "postcss": "^8.5.32"
+  }
+}
